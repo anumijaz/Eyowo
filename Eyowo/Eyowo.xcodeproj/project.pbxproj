@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D8147550438D50B96894AD0 /* Pods_Eyowo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC33B5D9BA4985350D68862 /* Pods_Eyowo.framework */; };
+		AD21652D26A6E79C00A13C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21652C26A6E79C00A13C61 /* AppDelegate.swift */; };
+		AD21653126A6E79C00A13C61 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21653026A6E79C00A13C61 /* LoginController.swift */; };
+		AD21653426A6E79C00A13C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21653226A6E79C00A13C61 /* Main.storyboard */; };
+		AD21653626A6E79F00A13C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21653526A6E79F00A13C61 /* Assets.xcassets */; };
+		AD21653926A6E79F00A13C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD21653726A6E79F00A13C61 /* LaunchScreen.storyboard */; };
+		AD21654426B033DA00A13C61 /* FruitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21654326B033DA00A13C61 /* FruitListViewController.swift */; };
+		AD268A3926B10AC600D51047 /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD268A3826B10AC600D51047 /* FruitTableViewCell.swift */; };
+		AD268A3D26B1522400D51047 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD268A3C26B1522400D51047 /* FruitModel.swift */; };
+		AD268A3F26B16EAD00D51047 /* DetailFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD268A3E26B16EAD00D51047 /* DetailFruitViewController.swift */; };
+		AD37559F26B9447D00602AA7 /* FruitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37559E26B9447D00602AA7 /* FruitService.swift */; };
+		AD3755A326B96A3800602AA7 /* FruitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3755A226B96A3800602AA7 /* FruitResponse.swift */; };
+		AD3755A526B96DD200602AA7 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3755A426B96DD200602AA7 /* NetworkRouter.swift */; };
+		AD3755A726B9737B00602AA7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3755A626B9737B00602AA7 /* Constants.swift */; };
+		ADD9879F26B80D34001A2327 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9879E26B80D34001A2327 /* FruitData.swift */; };
+		ADD987A826B82271001A2327 /* NetworkAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD987A726B82271001A2327 /* NetworkAPIClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D11B9C30299774CA6F08E5 /* Pods-Eyowo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eyowo.release.xcconfig"; path = "Target Support Files/Pods-Eyowo/Pods-Eyowo.release.xcconfig"; sourceTree = "<group>"; };
+		697A65B182EF5BB71694B566 /* Pods-Eyowo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eyowo.debug.xcconfig"; path = "Target Support Files/Pods-Eyowo/Pods-Eyowo.debug.xcconfig"; sourceTree = "<group>"; };
+		AD21652926A6E79C00A13C61 /* Eyowo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eyowo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21652C26A6E79C00A13C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD21653026A6E79C00A13C61 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		AD21653326A6E79C00A13C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD21653526A6E79F00A13C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD21653826A6E79F00A13C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD21653A26A6E79F00A13C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21654326B033DA00A13C61 /* FruitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListViewController.swift; sourceTree = "<group>"; };
+		AD268A3826B10AC600D51047 /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
+		AD268A3C26B1522400D51047 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		AD268A3E26B16EAD00D51047 /* DetailFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFruitViewController.swift; sourceTree = "<group>"; };
+		AD37559E26B9447D00602AA7 /* FruitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitService.swift; sourceTree = "<group>"; };
+		AD3755A226B96A3800602AA7 /* FruitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitResponse.swift; sourceTree = "<group>"; };
+		AD3755A426B96DD200602AA7 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		AD3755A626B9737B00602AA7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ADD9879E26B80D34001A2327 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		ADD987A726B82271001A2327 /* NetworkAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIClient.swift; sourceTree = "<group>"; };
+		CAC33B5D9BA4985350D68862 /* Pods_Eyowo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eyowo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD21652626A6E79C00A13C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8147550438D50B96894AD0 /* Pods_Eyowo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6900415D235DAD59C1BCADA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				697A65B182EF5BB71694B566 /* Pods-Eyowo.debug.xcconfig */,
+				18D11B9C30299774CA6F08E5 /* Pods-Eyowo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD21652026A6E79C00A13C61 = {
+			isa = PBXGroup;
+			children = (
+				AD21652B26A6E79C00A13C61 /* Eyowo */,
+				AD21652A26A6E79C00A13C61 /* Products */,
+				6900415D235DAD59C1BCADA1 /* Pods */,
+				B87C104D957BC714A7988E0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD21652A26A6E79C00A13C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD21652926A6E79C00A13C61 /* Eyowo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD21652B26A6E79C00A13C61 /* Eyowo */ = {
+			isa = PBXGroup;
+			children = (
+				ADD987A026B81257001A2327 /* NetworkLayer */,
+				AD268A3B26B151A300D51047 /* ModelClass */,
+				AD268A3A26B139A100D51047 /* Cell */,
+				AD21654226B0337200A13C61 /* Controller */,
+				AD21652C26A6E79C00A13C61 /* AppDelegate.swift */,
+				AD21653226A6E79C00A13C61 /* Main.storyboard */,
+				AD21653526A6E79F00A13C61 /* Assets.xcassets */,
+				AD21653726A6E79F00A13C61 /* LaunchScreen.storyboard */,
+				AD21653A26A6E79F00A13C61 /* Info.plist */,
+			);
+			path = Eyowo;
+			sourceTree = "<group>";
+		};
+		AD21654226B0337200A13C61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD21653026A6E79C00A13C61 /* LoginController.swift */,
+				AD21654326B033DA00A13C61 /* FruitListViewController.swift */,
+				AD268A3E26B16EAD00D51047 /* DetailFruitViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD268A3A26B139A100D51047 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AD268A3826B10AC600D51047 /* FruitTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AD268A3B26B151A300D51047 /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				AD268A3C26B1522400D51047 /* FruitModel.swift */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		ADD987A026B81257001A2327 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				ADD9879E26B80D34001A2327 /* FruitData.swift */,
+				ADD987A726B82271001A2327 /* NetworkAPIClient.swift */,
+				AD37559E26B9447D00602AA7 /* FruitService.swift */,
+				AD3755A226B96A3800602AA7 /* FruitResponse.swift */,
+				AD3755A426B96DD200602AA7 /* NetworkRouter.swift */,
+				AD3755A626B9737B00602AA7 /* Constants.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		B87C104D957BC714A7988E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAC33B5D9BA4985350D68862 /* Pods_Eyowo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD21652826A6E79C00A13C61 /* Eyowo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD21653D26A6E79F00A13C61 /* Build configuration list for PBXNativeTarget "Eyowo" */;
+			buildPhases = (
+				420E1FB8B984432422402FD4 /* [CP] Check Pods Manifest.lock */,
+				AD21652526A6E79C00A13C61 /* Sources */,
+				AD21652626A6E79C00A13C61 /* Frameworks */,
+				AD21652726A6E79C00A13C61 /* Resources */,
+				2267FFD57B6C6E0435D2F262 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eyowo;
+			productName = Eyowo;
+			productReference = AD21652926A6E79C00A13C61 /* Eyowo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD21652126A6E79C00A13C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Anum Ijaz";
+				TargetAttributes = {
+					AD21652826A6E79C00A13C61 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AD21652426A6E79C00A13C61 /* Build configuration list for PBXProject "Eyowo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD21652026A6E79C00A13C61;
+			productRefGroup = AD21652A26A6E79C00A13C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD21652826A6E79C00A13C61 /* Eyowo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD21652726A6E79C00A13C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD21653926A6E79F00A13C61 /* LaunchScreen.storyboard in Resources */,
+				AD21653626A6E79F00A13C61 /* Assets.xcassets in Resources */,
+				AD21653426A6E79C00A13C61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2267FFD57B6C6E0435D2F262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eyowo/Pods-Eyowo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eyowo/Pods-Eyowo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eyowo/Pods-Eyowo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		420E1FB8B984432422402FD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eyowo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD21652526A6E79C00A13C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3755A326B96A3800602AA7 /* FruitResponse.swift in Sources */,
+				AD3755A526B96DD200602AA7 /* NetworkRouter.swift in Sources */,
+				ADD9879F26B80D34001A2327 /* FruitData.swift in Sources */,
+				AD268A3926B10AC600D51047 /* FruitTableViewCell.swift in Sources */,
+				AD21653126A6E79C00A13C61 /* LoginController.swift in Sources */,
+				AD21654426B033DA00A13C61 /* FruitListViewController.swift in Sources */,
+				AD3755A726B9737B00602AA7 /* Constants.swift in Sources */,
+				AD21652D26A6E79C00A13C61 /* AppDelegate.swift in Sources */,
+				ADD987A826B82271001A2327 /* NetworkAPIClient.swift in Sources */,
+				AD37559F26B9447D00602AA7 /* FruitService.swift in Sources */,
+				AD268A3D26B1522400D51047 /* FruitModel.swift in Sources */,
+				AD268A3F26B16EAD00D51047 /* DetailFruitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD21653226A6E79C00A13C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21653326A6E79C00A13C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD21653726A6E79F00A13C61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21653826A6E79F00A13C61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD21653B26A6E79F00A13C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD21653C26A6E79F00A13C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD21653E26A6E79F00A13C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697A65B182EF5BB71694B566 /* Pods-Eyowo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eyowo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eyowo.Eyowo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD21653F26A6E79F00A13C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D11B9C30299774CA6F08E5 /* Pods-Eyowo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eyowo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eyowo.Eyowo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD21652426A6E79C00A13C61 /* Build configuration list for PBXProject "Eyowo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21653B26A6E79F00A13C61 /* Debug */,
+				AD21653C26A6E79F00A13C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD21653D26A6E79F00A13C61 /* Build configuration list for PBXNativeTarget "Eyowo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD21653E26A6E79F00A13C61 /* Debug */,
+				AD21653F26A6E79F00A13C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD21652126A6E79C00A13C61 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Eyowo {
+  umbrella header "Pods-Eyowo-umbrella.h"
+
+  export *
+  module * { export * }
+}
